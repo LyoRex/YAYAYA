@@ -6,6 +6,7 @@ def run_code(filename: str):
     in_str = ""
     with open(filename, "r") as f:
         in_str = f.read()
+    in_str = in_str.replace(" ", "")
     parse(in_str)
 
 def parse(inp: str):
