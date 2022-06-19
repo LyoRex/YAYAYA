@@ -34,7 +34,7 @@ YAYAYAYAH
 | **AYA** | Decrement byte at the data pointer |
 | **YAYAYA** | Output the byte at the data pointer |
 | **AYAYA** | Take one byte of input from stdin and store it at the data pointer |
-| **??** | If byte at the data pointer is 0, jump to the matching **!!** |
+| **??** | If the byte at the data pointer is 0, jump to the matching **!!** |
 | **!!** | If the byte at the data pointer is not 0, jump back to the first command after the matching **??** |
 
 Commands are delimited by **YAH**.
